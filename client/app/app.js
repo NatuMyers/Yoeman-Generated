@@ -9,7 +9,10 @@ angular.module('yoGeneratedApp', [
   'ngSanitize',
   'btford.socket-io',
   'ui.router',
-  'validation.match'
+  'ui.bootstrap',
+  'validation.match',
+   'ngAnimate',
+   'ngMaterial'
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
